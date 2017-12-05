@@ -14,7 +14,7 @@ $conn = mysql_connect("localhost","root","root")
  */
 
 // This is the main DB configuration; should update based on RDS 
-$databaseHost = '';
+$databaseHost = 'test.ckrg1bdwvkzk.us-east-1.rds.amazonaws.com';
 $databaseName = 'test';
 $databaseUsername = 'root1234';
 $databasePassword = 'root1234';
