@@ -7,4 +7,4 @@ service httpd start
 #echo "<?php phpinfo();?>" > /var/www/html/index.php
 cd /var/www/html
 git clone https://github.com/ajobayer/php-sample-crud.git
-mv php-sample-crud/* .
+cp php-sample-crud/source/* .
