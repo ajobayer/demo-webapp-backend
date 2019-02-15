@@ -15,9 +15,9 @@ $conn = mysql_connect("localhost","root","root")
 
 // This is the main DB configuration; should update based on RDS 
 $databaseHost = 'db-endpoint';
-$databaseName = 'test';
-$databaseUsername = 'root1234';
-$databasePassword = 'root1234';
+$databaseName = 'db-name';
+$databaseUsername = 'db-username';
+$databasePassword = 'db-password';
 
 $mysql = mysql_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 
