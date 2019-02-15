@@ -25,7 +25,7 @@
     }
     ?>
     <div id="footer">
-        Created by <a href="http://blog.chapagain.com.np" title="Mukesh Chapagain">Mukesh Chapagain</a>
+        Created by <a href="http://github.com/ajobayer" title="Abdulalh Jobayer">Abdulalh Jobayer</a>
     </div>
 </body>
 </html>
