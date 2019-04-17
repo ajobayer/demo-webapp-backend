@@ -27,7 +27,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM products WHERE login_id=".$_SESSI
     <tr bgcolor='#CCCCCC'>
         <td>Name</td>
         <td>Quantity</td>
-        <td>Price (euro)</td>
+        <td>Price (USD)</td>
         <td>Update</td>
     </tr>
     <?php
