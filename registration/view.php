@@ -10,8 +10,11 @@ if(!isset($_SESSION['valid'])) {
 //including the database connection file
 include_once("connection.php");
  
-//fetching data in descending order (lastest entry first)
-$result = mysqli_query($mysqli, "SELECT * FROM products WHERE login_id=".$_SESSION['id']." ORDER BY id DESC");
+// Admin fetch the data from database and can able to view/edit/delete/add
+// $result = mysqli_query($mysqli, "SELECT * FROM products WHERE login_id=".$_SESSION['id']." ORDER BY id DESC");
+// Admin fetch the data from database and can able to view/edit/delete/add
+$result = mysqli_query($mysqli, "SELECT * FROM products");
+
 ?>
  
 <html>
