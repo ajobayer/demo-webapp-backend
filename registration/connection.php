@@ -18,5 +18,8 @@ $databaseName = 'db-name';
 $databaseUsername = 'db-username';
 $databasePassword = 'db-password';
  
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
+$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
+if($mysqli) {
+    echo "database connection is successful.";
+}
 ?>
