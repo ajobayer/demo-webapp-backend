@@ -7,9 +7,11 @@
  
 <body>
     <div id="header">
-        Welcome to my page!
+        Welcome to Admin Portal (Backend)
     </div>
     <?php
+    $txt = "Server IP Address:"; $eip = file_get_contents('http://169.254.169.254/latest/meta-data/local-ipv4');
+    echo "<h2>".$txt."&nbsp;".$eip. "</h2>"; echo "<br>";
     if(isset($_SESSION['valid'])) {            
         include("connection.php");                    
         $result = mysqli_query($mysqli, "SELECT * FROM login");

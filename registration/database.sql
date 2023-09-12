@@ -3,7 +3,7 @@
 
 # Databse connection from client machine  <AppServer>;
 # mysql -h testprivate.ckrg1bdwvkzk.us-east-1.rds.amazonaws.com -P 3306 -u root1234 -p
-mysql -h  ddcd0mkui87k0c.cbytukajswxn.ap-southeast-2.rds.amazonaws.com -P 3306 -u root1234 -p root1234 demomysql
+mysql -h  dev-demords-1iiqwci7qhnwh-database-yjcwadff4kbp.cm6exltmg1rn.ap-southeast-2.rds.amazonaws.com -P 3306 -u root1234 -p root1234 demomysql
 
 
 Importing: 
